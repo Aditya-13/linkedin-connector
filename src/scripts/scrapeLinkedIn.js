@@ -18,7 +18,7 @@ const { linkedinLogin } = require("../utils/login");
 const scrapeLinkedIn = async (data) => {
   //Launch a chromium automated session
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     dumpio: true,
     args: ["--no-sandbox"],
   });
