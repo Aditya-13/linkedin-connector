@@ -1,0 +1,8 @@
+# Files and directories to exclude from the Docker image
+node_modules
+npm-debug.log
+.DS_Store
+LICENSE
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+Procfile
